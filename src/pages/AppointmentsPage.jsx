@@ -29,9 +29,7 @@ const AppointmentsPage = () => {
 
         {/* Form Section */}
         <div className="mb-10">
-          <h2 className="text-xl font-semibold text-blue-700 mb-4">
-            Book a New Appointment
-          </h2>
+          
           <AppointmentForm onAppointmentAdded={onAppointmentAdded} />
         </div>
 
